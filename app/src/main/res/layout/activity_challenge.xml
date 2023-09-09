@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/lined_out_all_line"
+    android:layout_marginHorizontal="50dp"
+    android:layout_marginTop="90dp"
+    android:layout_marginBottom="120dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/ll0"
+                style="@style/ver_Lin"
+                android:layout_marginTop="20dp">
+                <LinearLayout
+                    style="@style/hor_lin">
+                    <TextView
+                        android:id="@+id/tvT0"
+                        android:text="실패는 성공의 어머니"
+                        style="@style/titleCh"/>
+                    <TextView
+                        android:id="@+id/tvS0"
+                        android:text="미달성"
+                        style="@style/stateCh"/>
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/tvC0"
+                    android:text="총합 20회 이상 실수"
+                    style="@style/conditionCh"/>
+            </LinearLayout>
+            <LinearLayout
+                style="@style/ver_Lin"
+                android:id="@+id/ll1">
+                <LinearLayout
+                    style="@style/hor_lin">
+                    <TextView
+                        android:id="@+id/tvT1"
+                        android:text="7초의 미학"
+                        style="@style/titleCh"/>
+                    <TextView
+                        android:id="@+id/tvS1"
+                        android:text="미달성"
+                        style="@style/stateCh"/>
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/tvC1"
+                    android:text="7초 이하의 시간으로 클리어"
+                    style="@style/conditionCh"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll2"
+                style="@style/ver_Lin">
+                <LinearLayout
+                    style="@style/hor_lin">
+                    <TextView
+                        android:id="@+id/tvT2"
+                        android:text="금고는 움직이지 않는다"
+                        style="@style/titleCh"/>
+                    <TextView
+                        android:id="@+id/tvS2"
+                        android:text="미달성"
+                        style="@style/stateCh"/>
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/tvC2"
+                    android:text="30초 이상의 시간으로 클리어"
+                    style="@style/conditionCh"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll3"
+                style="@style/ver_Lin">
+                <LinearLayout
+                    style="@style/hor_lin">
+                    <TextView
+                        android:id="@+id/tvT3"
+                        android:text="꾸준함이란 미덕"
+                        style="@style/titleCh"/>
+                    <TextView
+                        android:id="@+id/tvS3"
+                        android:text="미달성"
+                        style="@style/stateCh"/>
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/tvC3"
+                    android:text="10회 이상 클리어"
+                    style="@style/conditionCh"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll4"
+                style="@style/ver_Lin">
+                <LinearLayout
+                    style="@style/hor_lin">
+                    <TextView
+                        android:id="@+id/tvT4"
+                        android:text="최신식 금고"
+                        style="@style/titleCh"/>
+                    <TextView
+                        android:id="@+id/tvS4"
+                        android:text="미달성"
+                        style="@style/stateCh"/>
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/tvC4"
+                    android:text="'민감' 상태에서 클리어"
+                    style="@style/conditionCh"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll5"
+                style="@style/ver_Lin">
+                <LinearLayout
+                    style="@style/hor_lin">
+                    <TextView
+                        android:id="@+id/tvT5"
+                        android:text="얍삽한 도둑"
+                        style="@style/titleCh"/>
+                    <TextView
+                        android:id="@+id/tvS5"
+                        android:text="미달성"
+                        style="@style/stateCh"/>
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/tvC5"
+                    android:text="모든 숫자가 공개된 상태에서 클리어"
+                    style="@style/conditionCh"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll6"
+                style="@style/ver_Lin">
+                <LinearLayout
+                    style="@style/hor_lin">
+                    <TextView
+                        android:id="@+id/tvT6"
+                        android:text="외눈의 의적"
+                        style="@style/titleCh"/>
+                    <TextView
+                        android:id="@+id/tvS6"
+                        android:text="미달성"
+                        style="@style/stateCh"/>
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/tvC6"
+                    android:text="2개의 숫자만이 공개된 상태에서 클리어"
+                    style="@style/conditionCh"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll7"
+                style="@style/ver_Lin">
+                <LinearLayout
+                    style="@style/hor_lin">
+                    <TextView
+                        android:id="@+id/tvT7"
+                        android:text="심안의 괴도"
+                        style="@style/titleCh"/>
+                    <TextView
+                        android:id="@+id/tvS7"
+                        android:text="미달성"
+                        style="@style/stateCh"/>
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/tvC7"
+                    android:text="공개된 숫자가 없는 상태에서 클리어"
+                    style="@style/conditionCh"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll8"
+                style="@style/ver_Lin">
+                <LinearLayout
+                    style="@style/hor_lin">
+                    <TextView
+                        android:id="@+id/tvT8"
+                        android:text="손으로 보다"
+                        style="@style/titleCh"/>
+                    <TextView
+                        android:id="@+id/tvS8"
+                        android:text="미달성"
+                        style="@style/stateCh"/>
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/tvC8"
+                    android:text="'민감' 상태에서 공개된 숫자 없이 클리어"
+                    style="@style/conditionCh"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

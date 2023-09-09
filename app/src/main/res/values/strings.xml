@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">금고따기</string>
+    <string name="title">title</string>
+    <string name="unknownB">//////////--------</string>
+    <string name="explain">1. 다이얼 지시선을 반시계방향으로 돌려 눈금 20에 맞춘다.\n2. 다이얼 지시선을 시계방향으로 돌려 눈금 40에 맞춘다.\n3. 다이얼 지시선을 반시계방향으로 돌려 눈금 60에 맞춘다.\n4. 다이얼 지시선을 시계방향으로 돌려 눈금 80에 맞춘다."</string>
+</resources>

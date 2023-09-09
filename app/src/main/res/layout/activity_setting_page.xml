@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="70dp"
+    android:layout_marginVertical="100dp"
+    android:background="@drawable/lined_out_all_line">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="숫자 공개 여부 설정"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"/>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="20dp">
+        <TableRow>
+            <TextView
+                android:id="@+id/tv1"
+                style="@style/TBs_roll"
+                android:text="num1" />
+
+            <TextView
+                android:id="@+id/tv2"
+                style="@style/TBs_roll"
+                android:text="num2" />
+
+            <TextView
+                android:id="@+id/tv3"
+                style="@style/TBs_roll"
+                android:text="num3" />
+
+            <TextView
+                android:id="@+id/tv4"
+                style="@style/TBs_roll"
+                android:text="num4" />
+        </TableRow>
+    </TableLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="민감도 설정"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"/>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="20dp">
+        <TableRow>
+            <TextView
+                android:id="@+id/touchN"
+                style="@style/TBs_roll"
+                android:textSize="17sp"
+                android:text="보통" />
+
+            <TextView
+                android:id="@+id/touchM"
+                style="@style/TBs_roll"
+                android:textSize="17sp"
+                android:text="민감" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

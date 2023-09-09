@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lined_out_all_line"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="60dp"
+    android:layout_marginVertical="120dp"
+    android:id="@+id/StartBLL">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginVertical="60dp"
+        android:layout_marginHorizontal="30dp">
+
+        <Button
+            android:id="@+id/BtnStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:clickable="false"
+            android:text="시작"
+            android:textStyle="bold"
+
+            style="@style/Mono_Button"/>
+
+        <Button
+            android:id="@+id/BtnCh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="도전 과제"
+            android:textStyle="bold"
+            style="@style/Mono_Button"/>
+
+        <Button
+            android:id="@+id/BtnSetting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="게임 설정"
+            android:textStyle="bold"
+            style="@style/Mono_Button"/>
+        <Button
+            android:id="@+id/BtnExplain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="플레이 설명"
+            android:textStyle="bold"
+            style="@style/Mono_Button"/>
+    </LinearLayout>
+</LinearLayout>

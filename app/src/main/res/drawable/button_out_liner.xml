@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"
+        android:drawable="@drawable/lined_out_bottom_line">
+        <shape android:shape="rectangle">
+            <stroke android:color="@color/black"
+                android:width="3dp"/>
+            <solid android:color="@color/white"/>
+        </shape>
+    </item>
+    <!-- pressed -->
+
+    <item android:state_focused="true"
+        android:drawable="@drawable/lined_out_bottom_line">
+        <shape android:shape="rectangle">
+            <stroke android:color="@color/black"
+                android:width="3dp"/>
+            <solid android:color="@color/white"/>
+        </shape>
+    </item>
+    <!-- focused -->
+
+    <item>
+        <shape android:shape="rectangle"/>
+    </item>
+    <!-- default -->
+</selector>
